@@ -5,3 +5,8 @@ div.project.card {
     border-width: 0.5em;
     margin: 1em;
 }
+
+a:hover {
+    color: #F1B300;
+    text-decoration: underline;
+}
