@@ -1,0 +1,21 @@
+header {
+    background-color: #F1B300;
+    padding: 1em;
+}
+
+#title, #subtitle, a {
+    color: #003466 !important
+}
+
+#title {
+    font-size: 7em;
+}
+
+#subtitle {
+    font-size:1.1em;
+}
+
+a {
+    text-decoration: none !important;
+    font-size: 1.5em;
+}
