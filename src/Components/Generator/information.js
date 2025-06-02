@@ -9,7 +9,7 @@ const howImageAlt = "CAD assembly of the permanent magnetic syncrhonous generato
 const resultsImageAlt = ""
 
 const whatTexts = [
-    "Design a permanent magnetic synchronous generator with user-define parameters to simplify the design process for the NAU CWC team",
+    "Design a permanent magnetic synchronous generator with user-defined parameters to simplify the design process for the NAU CWC team",
     "Perfomed tests on existing generators to characterize performance, simulate through software, and modify before initiating the design process"
 ]
 const howTexts = [

@@ -12,7 +12,7 @@ const whatTexts = [
     "Develop a test bench to measure generator performance based on a dynamometer-based measurements"
 ]
 const howTexts = [ 
-    "Used <b>Arduino</</b> for electrical structure",
+    "Used <b>Arduino</b> for electrical structure",
     "Used current, torque, and RPM sensor for measurment readings",
     "UseD LCD Screen and SD Card to read data"
 ]
