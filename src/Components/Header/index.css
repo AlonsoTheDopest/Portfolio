@@ -23,4 +23,8 @@ header a {
 header a:hover {
     color: white !important;
     text-decoration: underline !important;
+    
+    .icon {
+        color: white !important;
+    }
 }
