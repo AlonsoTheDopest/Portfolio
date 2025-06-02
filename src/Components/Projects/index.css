@@ -6,6 +6,11 @@ div.project.card {
     margin: 1em;
 }
 
-a:hover {
+.project a {
+    text-decoration: none;
+}
+
+.project a:hover {
     color: #F1B300 !important;
+    text-decoration: underline;
 }

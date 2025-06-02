@@ -19,3 +19,8 @@ header a {
     text-decoration: none !important;
     font-size: 1.5em;
 }
+
+header a:hover {
+    color: white !important;
+    text-decoration: underline !important;
+}

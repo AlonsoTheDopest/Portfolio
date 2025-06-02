@@ -11,16 +11,16 @@ export default function Contact() {
     return (
         <Container>
             <Row>
-                <Col> <a href={ "mailto:" +  EMAIL }> <MdEmail size={ ICON_SIZE } color={ ICON_COLOR }/> { EMAIL } </a> </Col>
+                <Col> <a href={ "mailto:" +  EMAIL }> <MdEmail size={ ICON_SIZE } color={ ICON_COLOR } className="icon"/>{ EMAIL }</a> </Col>
             </Row>
             <Row>
-                <Col> <a href={ "tel:" + PHONE_NUM }> <FaPhoneAlt size={ ICON_SIZE } color={ ICON_COLOR }/> { PHONE_NUM } </a> </Col>
+                <Col> <a href={ "tel:" + PHONE_NUM }> <FaPhoneAlt size={ ICON_SIZE } color={ ICON_COLOR } className="icon"/>{ PHONE_NUM }</a> </Col>
             </Row>
             <Row>
-                <Col> <a href={ "https://" + LINKED_IN } target="_blank" rel="noreferrer"> <FaLinkedin size={ ICON_SIZE } color={ ICON_COLOR }/> { LINKED_IN } </a> </Col>
+                <Col> <a href={ "https://" + LINKED_IN } target="_blank" rel="noreferrer"> <FaLinkedin size={ ICON_SIZE } color={ ICON_COLOR } className="icon"/>{ LINKED_IN }</a> </Col>
             </Row>
             <Row>
-                <Col> <a href={ "https://" + GIT_HUB } target="_blank" rel="noreferrer"> <FaGithub size={ ICON_SIZE } color={ ICON_COLOR }/> { GIT_HUB } </a> </Col>
+                <Col> <a href={ "https://" + GIT_HUB } target="_blank" rel="noreferrer"> <FaGithub size={ ICON_SIZE } color={ ICON_COLOR } className="icon"/>{ GIT_HUB }</a> </Col>
             </Row>
         </Container>
     );
