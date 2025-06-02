@@ -14,7 +14,7 @@ const whatTexts = [
 const howTexts = [ 
     "Used <b>Arduino</b> for electrical structure",
     "Used current, torque, and RPM sensor for measurment readings",
-    "UseD LCD Screen and SD Card to read data"
+    "Used LCD Screen and SD Card to read data"
 ]
 const resultsTexts = [
     
