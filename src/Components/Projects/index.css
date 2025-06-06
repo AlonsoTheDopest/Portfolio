@@ -7,10 +7,19 @@ div.project.card {
 }
 
 .project a {
+    font-size: 0.9em;
+    font-weight: bold;
     text-decoration: none;
 }
 
 .project a:hover {
     color: #F1B300 !important;
     text-decoration: underline;
+}
+
+
+@media screen and ( max-width: 425px ) {
+    .project-info {
+        margin: 6px;
+    }
 }

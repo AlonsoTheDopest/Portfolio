@@ -9,3 +9,6 @@ div.project-info.card {
     border-width: 0.5em;
 }
 
+@media screen and ( max-width: 425px ) {
+    
+}
