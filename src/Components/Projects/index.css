@@ -19,6 +19,10 @@ div.project.card {
 
 
 @media screen and ( max-width: 425px ) {
+    h2 {
+        text-align: center;
+    }
+
     .project-info {
         margin: 6px;
     }
