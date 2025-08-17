@@ -6,6 +6,9 @@ import droneCad2 from "./images/drone-cad2.png"
 
 const information = new ProjectInfo()
 
+const title = "Search and Rescue Drone"
+const link = ""
+
 const whatImages = [
     subSystemConcepts
 ]
@@ -35,6 +38,7 @@ const resultsTexts = [
     "Achieved a transmission distance increase of 29%"
 ]
 
+information.setHeaderInfo( title, link )
 information.setWhatInfo( whatImages , whatImageAlt, whatTexts )
 information.setHowInfo( howImages, howImageAlt, howTexts )
 information.setResultsInfo( resultsImages, resultsImageAlt, resultsTexts )

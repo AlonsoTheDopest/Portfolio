@@ -1,12 +1,11 @@
 import CardGrid from '../CardGrid';
 import information from './information';
-import { ME_CAPSTONE_LINK } from '../../constants.js';
-import { FaExternalLinkAlt } from "react-icons/fa";
+import SectionHeader from '../SectionHeader/index.js';
 
 export default function Section() {
   return (
     <>
-      <h2><a href={ "https://" + ME_CAPSTONE_LINK } target="_blank">3-Phase Permanent Magnetic Synchronous Generator (PMSG) <FaExternalLinkAlt /></a></h2>
+      <SectionHeader title={ information.header.title } link={ information.header.link }/>
       <CardGrid projectInfo={ information }/>
     </>
   );

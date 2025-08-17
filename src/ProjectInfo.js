@@ -1,6 +1,11 @@
 export default class ProjectInfo {
 
     constructor() {
+        this.header = {
+            title: "",
+            link: ""
+        }
+
         this.whatInfo = {
             title: "What?",
             images: [],
@@ -21,6 +26,11 @@ export default class ProjectInfo {
             imageAlt: "",
             texts: []
         }
+    }
+
+    setHeaderInfo( title, link ) {
+        this.header.title = title
+        this.header.link = link
     }
 
     setWhatInfo( images, imageAlt, texts ) {

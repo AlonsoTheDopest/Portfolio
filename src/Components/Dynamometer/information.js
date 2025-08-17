@@ -5,6 +5,9 @@ import testBenchInAction from "./images/test-bench-in-action.jpg"
 
 const information = new ProjectInfo()
 
+const title = "3-Phase PMSG Test Bench"
+const link = "github.com/AlonsoTheDopest/CWC_GEN_Test_Bench/tree/main"
+
 const whatImages = [
     schematic
 ]
@@ -14,7 +17,6 @@ const howImages = [
 const resultsImages = [
     testBenchInAction
 ]
-
 
 const whatImageAlt = "Circuit schematic of test bench for Dynamometer"
 const howImageAlt = "Physical testing bench for Dynamometer"
@@ -39,6 +41,7 @@ const resultsTexts = [
     "Supports a 2Ω minimum shunt resistance"
 ]
 
+information.setHeaderInfo( title, link )
 information.setWhatInfo( whatImages , whatImageAlt, whatTexts )
 information.setHowInfo( howImages, howImageAlt, howTexts )
 information.setResultsInfo( resultsImages, resultsImageAlt, resultsTexts )

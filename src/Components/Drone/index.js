@@ -1,10 +1,11 @@
 import CardGrid from '../CardGrid';
 import information from './information';
+import SectionHeader from '../SectionHeader/index.js';
 
 export default function Section() {
   return (
     <>
-      <h2>Search and Rescue Drone</h2>
+      <SectionHeader title={ information.header.title } link={ information.header.link }/>
       <CardGrid projectInfo={ information }/>
     </>
   );

@@ -1,12 +1,11 @@
 import CardGrid from '../CardGrid';
 import information from './information';
-import { UQLID_POSTER_LINK } from '../../constants';
-import { FaExternalLinkAlt } from "react-icons/fa";
+import SectionHeader from '../SectionHeader/index.js';
 
 export default function Section() {
   return (
     <>
-      <h2><a href={ "https://" + UQLID_POSTER_LINK } target="_blank">Topology Optimization Software <FaExternalLinkAlt /></a></h2>
+      <SectionHeader title={ information.header.title } link={ information.header.link }/>
       <CardGrid projectInfo={ information }/>
     </>
   );
