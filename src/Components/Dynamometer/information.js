@@ -5,6 +5,17 @@ import testBenchInAction from "./images/test-bench-in-action.jpg"
 
 const information = new ProjectInfo()
 
+const whatImages = [
+    schematic
+]
+const howImages = [
+    testBench
+]
+const resultsImages = [
+    testBenchInAction
+]
+
+
 const whatImageAlt = "Circuit schematic of test bench for Dynamometer"
 const howImageAlt = "Physical testing bench for Dynamometer"
 const resultsImageAlt = "Test bench in action with Dynamometer"
@@ -28,8 +39,8 @@ const resultsTexts = [
     "Integrated a programmable load input that supports a 2Ω minimum shunt resistance"
 ]
 
-information.setWhatInfo( schematic, whatImageAlt, whatTexts )
-information.setHowInfo( testBench, howImageAlt, howTexts )
-information.setResultsInfo( testBenchInAction, resultsImageAlt, resultsTexts )
+information.setWhatInfo( whatImages , whatImageAlt, whatTexts )
+information.setHowInfo( howImages, howImageAlt, howTexts )
+information.setResultsInfo( resultsImages, resultsImageAlt, resultsTexts )
 
 export default information
