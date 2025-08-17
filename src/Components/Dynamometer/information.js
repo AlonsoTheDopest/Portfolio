@@ -9,15 +9,15 @@ const whatImageAlt = "Circuit schematic of test bench for Dynamometer"
 const howImageAlt = "Physical testing bench for Dynamometer"
 const resultsImageAlt = "Test bench in action with Dynamometer"
 
-const whatTexts = [ 
-    "Develop a test bench to measure generator performance based on a dynamometer-based measurements",
-    "Implement the test bench to ensure ease of use and trasportability for future PMSG testing"
+const whatTexts = [
+    "Develop a test bench to measure generator performance from a dynamometer",
+    "Implement the test bench with the dynamometer setup to ensure ease of use and trasportability for future PMSG testing"
 ]
 const howTexts = [ 
-    "Used Arduino for timing precision and data logging",
-    "Utilized GitHub for version control and to ensure future users can properly use the test bench",
+    "Used Arduino for timing precision, data sampling, and data logging",
+    "Utilized GitHub for version control and to ensure proper use of the test bench for future users",
     "Applied voltage divider, current sensor, infrared sensor, and load cell amplifier for voltage, current, rotational speed, and torque readings, respectively",
-    "Integrated LCD Screen and SD Card to read and process data",
+    "Integrated LCD Screen and SD Card to read and help process data",
     "Implemented Object Oriented Programming for reusability and maintainability"
 ]
 const resultsTexts = [
