@@ -4,6 +4,7 @@
   import Generator from "../Generator"
   import Dynamometer from "../Dynamometer"
   import UqlidSoftware from "../UQLID_Software"
+  import Drone from "../Drone"
   import Card from 'react-bootstrap/Card'
 
   // CSS
@@ -18,6 +19,7 @@ export default function Projects() {
         <Card body className="project"><Generator /></Card>
         <Card body className="project"><Dynamometer /></Card>
         <Card body className="project"><UqlidSoftware /></Card>
+        <Card body className="project"><Drone /></Card>
       </Stack>
   )
 }
