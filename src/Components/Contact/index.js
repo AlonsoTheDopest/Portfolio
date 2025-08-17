@@ -5,7 +5,7 @@ import { FaGithub } from "react-icons/fa";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import { EMAIL, PHONE_NUM, LINKED_IN, GIT_HUB, ICON_SIZE, ICON_COLOR } from "../../constants"
+import { EMAIL, PHONE_NUM, LINKED_IN, GIT_HUB, ICON_SIZE, ICON_COLOR } from "./information"
 
 export default function Contact() {
     return (
