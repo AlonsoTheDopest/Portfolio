@@ -1,8 +1,7 @@
-import CardGrid from '../CardGrid';
-import information from './information';
-import SectionHeader from '../SectionHeader/index.js';
+import CardGrid from '../CardGrid/index.js'
+import SectionHeader from '../SectionHeader/index.js'
 
-export default function Section() {
+export default function Section( { information } ) {
   return (
     <>
       <SectionHeader title={ information.header.title } link={ information.header.link }/>
