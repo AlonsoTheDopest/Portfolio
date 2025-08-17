@@ -3,7 +3,10 @@ export default class ProjectInfo {
     constructor() {
         this.header = {
             title: "",
-            link: ""
+            link: "",
+            icon: "",
+            iconWidth: "auto",
+            iconHeight: "auto"
         }
 
         this.whatInfo = {
@@ -28,9 +31,12 @@ export default class ProjectInfo {
         }
     }
 
-    setHeaderInfo( title, link ) {
+    setHeaderInfo( title, link, icon, iconWidth = "auto", iconHeight = "auto" ) {
         this.header.title = title
         this.header.link = link
+        this.header.icon = icon
+        this.header.iconWidth = iconWidth
+        this.header.iconHeight = iconHeight
     }
 
     setWhatInfo( images, imageAlt, texts ) {

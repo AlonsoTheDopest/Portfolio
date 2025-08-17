@@ -1,4 +1,5 @@
-import ProjectInfo from "../../ProjectInfo"
+import ProjectInfo from "../../../ProjectInfo"
+import nauIcon from "../../../images/nau-icon.png"
 import subSystemConcepts from "./images/sub-system-concepts.png"
 import concept from "./images/concept.png"
 import droneCad1 from "./images/drone-cad1.png"
@@ -8,6 +9,9 @@ const information = new ProjectInfo()
 
 const title = "Search and Rescue Drone"
 const link = ""
+const icon = nauIcon
+const iconWidth = "32px"
+const iconHeight = "32px"
 
 const whatImages = [
     subSystemConcepts
@@ -38,7 +42,7 @@ const resultsTexts = [
     "Achieved a transmission distance increase of 29%"
 ]
 
-information.setHeaderInfo( title, link )
+information.setHeaderInfo( title, link, icon, iconWidth, iconHeight )
 information.setWhatInfo( whatImages , whatImageAlt, whatTexts )
 information.setHowInfo( howImages, howImageAlt, howTexts )
 information.setResultsInfo( resultsImages, resultsImageAlt, resultsTexts )

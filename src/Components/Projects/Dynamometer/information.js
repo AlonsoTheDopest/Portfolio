@@ -1,4 +1,5 @@
-import ProjectInfo from "../../ProjectInfo"
+import ProjectInfo from "../../../ProjectInfo"
+import nauIcon from "../../../images/nau-icon.png"
 import schematic from "./images/schematic.png"
 import testBench from "./images/test-bench.jpeg"
 import testBenchInAction from "./images/test-bench-in-action.jpg"
@@ -7,6 +8,9 @@ const information = new ProjectInfo()
 
 const title = "3-Phase PMSG Test Bench"
 const link = "github.com/AlonsoTheDopest/CWC_GEN_Test_Bench/tree/main"
+const icon = nauIcon
+const iconWidth = "32px"
+const iconHeight = "32px"
 
 const whatImages = [
     schematic
@@ -41,7 +45,7 @@ const resultsTexts = [
     "Supports a 2Ω minimum shunt resistance"
 ]
 
-information.setHeaderInfo( title, link )
+information.setHeaderInfo( title, link, icon, iconWidth, iconHeight )
 information.setWhatInfo( whatImages , whatImageAlt, whatTexts )
 information.setHowInfo( howImages, howImageAlt, howTexts )
 information.setResultsInfo( resultsImages, resultsImageAlt, resultsTexts )

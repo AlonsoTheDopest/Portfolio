@@ -1,4 +1,5 @@
-import ProjectInfo from "../../ProjectInfo"
+import ProjectInfo from "../../../ProjectInfo"
+import nauIcon from "../../../images/nau-icon.png"
 import shaft from './images/shaft.jpeg'
 import assembly from './images/assembly.jpeg'
 
@@ -6,6 +7,9 @@ const information = new ProjectInfo()
 
 const title = "3-Phase Permanent Magnetic Synchronous Generator (PMSG)"
 const link = "ceias.nau.edu/capstone/projects/ME/2025/SP25toF25_CWCGen/"
+const icon = nauIcon
+const iconWidth = "32px"
+const iconHeight = "32px"
 
 const whatImages = [
     shaft
@@ -32,7 +36,7 @@ const howTexts = [
 const resultsTexts = [
 ]
 
-information.setHeaderInfo( title, link )
+information.setHeaderInfo( title, link, icon, iconWidth, iconHeight )
 information.setWhatInfo( whatImages, whatImageAlt, whatTexts )
 information.setHowInfo( howImages, howImageAlt, howTexts )
 information.setResultsInfo( resultsImages, resultsImageAlt, resultsTexts )
