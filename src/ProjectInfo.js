@@ -3,40 +3,40 @@ export default class ProjectInfo {
     constructor() {
         this.whatInfo = {
             title: "What?",
-            image: "",
+            images: [],
             imageAlt: "",
             texts: []
         }
 
         this.howInfo = {
             title: "How?",
-            image: "",
+            images: [],
             imageAlt: "",
             texts: []
         }
 
         this.resultsInfo = {
             title: "Results",
-            image: "",
+            images:[],
             imageAlt: "",
             texts: []
         }
     }
 
-    setWhatInfo( image, imageAlt, texts ) {
-        this.whatInfo.image = image
+    setWhatInfo( images, imageAlt, texts ) {
+        this.whatInfo.images = images
         this.whatInfo.imageAlt = imageAlt
         this.whatInfo.texts = texts
     }
 
-    setHowInfo( image, imageAlt, texts ) {
-        this.howInfo.image = image
+    setHowInfo( images, imageAlt, texts ) {
+        this.howInfo.images = images
         this.howInfo.imageAlt = imageAlt
         this.howInfo.texts = texts
     }
 
-    setResultsInfo( image, imageAlt, texts ) {
-        this.resultsInfo.image = image
+    setResultsInfo( images, imageAlt, texts ) {
+        this.resultsInfo.images = images
         this.resultsInfo.imageAlt = imageAlt
         this.resultsInfo.texts = texts
     }
