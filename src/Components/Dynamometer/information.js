@@ -35,8 +35,8 @@ const resultsTexts = [
     "Optimized voltage divider and current sensor measurement errors by 70%",
     "Soldered test bench circuit and voltage divider to have less than 1% voltage loss",
     "Programmed a tachometer to measure up to 5000 RPM with ±5% error <b>(work in progress to improve accuracy)<b>",
-    "Achieved a high-voltage and high-current circuit of 48V and 24A 3-Phase PMSG input",
-    "Integrated a programmable load input that supports a 2Ω minimum shunt resistance"
+    "Achieved a high-voltage and high-current circuit of 48V and 24A for a 3-Phase PMSG input",
+    "Supports a 2Ω minimum shunt resistance"
 ]
 
 information.setWhatInfo( whatImages , whatImageAlt, whatTexts )
