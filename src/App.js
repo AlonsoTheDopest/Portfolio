@@ -1,6 +1,7 @@
 import './App.css'
 import Header from './Components/Header'
 import Projects from './Components/Projects/'
+import Footer from './Components/Footer'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 
@@ -9,6 +10,7 @@ export default function App() {
     <>
       <Header />
       <Projects />
+      <Footer />
     </>
   );
 }
