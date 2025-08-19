@@ -3,7 +3,7 @@
   // Projects
   import Generator from "./Generator/information"
   import Dynamometer from "./Dynamometer/information"
-  import UqlidSoftware from "./UQLID_Software/information"
+  import UqlidSoftware from "./UqlidSoftware/information"
   import Drone from "./Drone/information"
   
   // Components
