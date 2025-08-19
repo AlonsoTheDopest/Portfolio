@@ -10,7 +10,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/mechanical-engineering-portfolio" element={ <> <Header /><ProjectsSection /><Footer /></> }></Route>
+        <Route path="/mechanical-engineering-portfolio" element={ <><Header /><ProjectsSection /><Footer /></> }></Route>
       </Routes>
     </BrowserRouter>
   );
