@@ -3,7 +3,7 @@ import Image from 'react-bootstrap/Image'
 
 import "./index.css"
 
-export default function SectionHeader( { title, link, icon, iconWidth, iconHeight } ) {
+export default function Header( { title, link, icon, iconWidth, iconHeight } ) {
     let imageTag = <></>
     let linkTag = (
         <>
