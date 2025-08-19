@@ -19,10 +19,23 @@
 export default function ProjectsSection() {
   return (
       <Stack id="projects">
-        <Card body className="project"><ProjectSection information={ Generator } /></Card>
-        <Card body className="project"><ProjectSection information={ Dynamometer } /></Card>
-        <Card body className="project"><ProjectSection information={ UqlidSoftware } /></Card>
-        <Card body className="project"><ProjectSection information={ Drone } /></Card>
+
+        <Card body className="project">
+          <ProjectSection information={ Generator } />
+        </Card>
+
+        <Card body className="project">
+          <ProjectSection information={ Dynamometer } />
+        </Card>
+
+        <Card body className="project">
+          <ProjectSection information={ UqlidSoftware } />
+        </Card>
+
+        <Card body className="project">
+          <ProjectSection information={ Drone } />
+        </Card>
+        
       </Stack>
   )
 }
