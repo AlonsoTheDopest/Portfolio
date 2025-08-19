@@ -1,13 +1,13 @@
 // Imports
 
   // Projects
-  import Generator from "../Projects/Generator/information"
-  import Dynamometer from "../Projects/Dynamometer/information"
-  import UqlidSoftware from "../Projects/UQLID_Software/information"
-  import Drone from "../Projects/Drone/information"
+  import Generator from "./Generator/information"
+  import Dynamometer from "./Dynamometer/information"
+  import UqlidSoftware from "./UQLID_Software/information"
+  import Drone from "./Drone/information"
   
   // Components
-  import ProjectSection from "../ProjectSection"
+  import Project from "./Project"
 
   // CSS
   import "./index.css"
@@ -16,24 +16,24 @@
   import Stack from 'react-bootstrap/Stack'
   import Card from 'react-bootstrap/Card'
 
-export default function ProjectsSection() {
+export default function Projects() {
   return (
       <Stack id="projects">
 
         <Card body className="project">
-          <ProjectSection information={ Generator } />
+          <Project information={ Generator } />
         </Card>
 
         <Card body className="project">
-          <ProjectSection information={ Dynamometer } />
+          <Project information={ Dynamometer } />
         </Card>
 
         <Card body className="project">
-          <ProjectSection information={ UqlidSoftware } />
+          <Project information={ UqlidSoftware } />
         </Card>
 
         <Card body className="project">
-          <ProjectSection information={ Drone } />
+          <Project information={ Drone } />
         </Card>
         
       </Stack>
