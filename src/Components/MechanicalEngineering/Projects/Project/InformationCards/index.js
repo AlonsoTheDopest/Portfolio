@@ -80,7 +80,7 @@
 
 
 // 
-export default function CardGrid( { projectInfo } ) {
+export default function InformationCards( { projectInfo } ) {
     let objectEntries = Object.entries( projectInfo )
     objectEntries.shift() // Remove first entry of projectInfo
     const cards = objectEntries.map( ( field, index ) => {
