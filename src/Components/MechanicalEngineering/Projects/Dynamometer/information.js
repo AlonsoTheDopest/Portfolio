@@ -1,5 +1,5 @@
-import ProjectInfo from "../../../ProjectInfo"
-import nauIcon from "../../../images/nau-icon.png"
+import ProjectInfo from "../../../../ProjectInfo"
+import nauIcon from "../../../../images/nau-icon.png"
 import schematic from "./images/schematic.png"
 import testBench from "./images/test-bench.jpeg"
 import testBenchInAction from "./images/test-bench-in-action.jpg"

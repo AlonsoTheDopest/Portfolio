@@ -1,10 +1,10 @@
-import CardGrid from '../CardGrid/index.js'
-import ProjectSectionHeader from '../ProjectSectionHeader/index.js'
+import CardGrid from './InformationCards/index.js'
+import Header from './Header/index.js'
 
-export default function ProjectSection( { information } ) {
+export default function Project( { information } ) {
   return (
     <>
-      <ProjectSectionHeader 
+      <Header 
         title={ information.header.title } 
         link={ information.header.link } 
         icon={ information.header.icon }

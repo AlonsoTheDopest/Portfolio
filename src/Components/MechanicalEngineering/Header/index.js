@@ -1,8 +1,8 @@
-import Contact from '../Contact';
+import Contact from './Contact';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import abgPicture from "../../images/alonso-garcia.jpg"
+import abgPicture from "../../../images/alonso-garcia.jpg"
 import Image from 'react-bootstrap/Image';
 
 import "./index.css"

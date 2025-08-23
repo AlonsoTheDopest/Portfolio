@@ -1,5 +1,5 @@
-import ProjectInfo from "../../../ProjectInfo"
-import uqlidIcon from "../../../images/uqlid-logo.png"
+import ProjectInfo from "../../../../ProjectInfo"
+import uqlidIcon from "../../../../images/uqlid-logo.png"
 import cantBeam from "./images/cantilever-beam.png"
 import optCantBeam from "./images/optimized-cantilever-beam.png"
 import softwareScreen from "./images/software-screen.png"

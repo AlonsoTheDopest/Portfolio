@@ -1,5 +1,5 @@
-import ProjectInfo from "../../../ProjectInfo"
-import nauIcon from "../../../images/nau-icon.png"
+import ProjectInfo from "../../../../ProjectInfo"
+import nauIcon from "../../../../images/nau-icon.png"
 import subSystemConcepts from "./images/sub-system-concepts.png"
 import concept from "./images/concept.png"
 import droneCad1 from "./images/drone-cad1.png"
