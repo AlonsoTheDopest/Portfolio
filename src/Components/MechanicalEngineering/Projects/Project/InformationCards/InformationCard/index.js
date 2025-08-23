@@ -11,7 +11,7 @@
         return texts.map( ( text, index ) => {
             return (
                 <li> 
-                    <Card.Text key={ index }> { parse( text ) } </Card.Text> 
+                    <Card.Text key={ index }>{ parse( text ) }</Card.Text> 
                 </li>
             )
         })
