@@ -11,7 +11,9 @@
         return texts.map( ( text, index ) => {
             return (
                 <li> 
-                    <Card.Text key={ index }>{ parse( text ) }</Card.Text> 
+                    <Card.Text key={ index }>
+                        { parse( text ) }
+                    </Card.Text> 
                 </li>
             )
         })
@@ -49,7 +51,9 @@ export default function InformationCard( { images, imageAlt, title, texts } ) {
             <Card className="project-info">
                 { imagesHtml }
                 <Card.Body>
-                    <Card.Title as="h3"> { title } </Card.Title>
+                    <Card.Title as="h3"> 
+                        { title } 
+                    </Card.Title>
                     <ul>
                         { textsHtml }
                     </ul>
