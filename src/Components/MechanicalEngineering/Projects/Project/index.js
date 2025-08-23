@@ -1,4 +1,4 @@
-import CardGrid from '../../CardGrid/index.js'
+import CardGrid from './CardGrid/index.js'
 import Header from './Header/index.js'
 
 export default function Project( { information } ) {
