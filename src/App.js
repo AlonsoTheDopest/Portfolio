@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
+import { BrowserRouter, Routes, Route, Link } from "react-router"
 import './App.css'
 import MechanicalEngineering from "./Components/MechanicalEngineering"
 import 'bootstrap/dist/css/bootstrap.min.css'
