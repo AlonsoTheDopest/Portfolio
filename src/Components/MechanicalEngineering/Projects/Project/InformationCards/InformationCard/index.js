@@ -3,6 +3,9 @@
     import Carousel from 'react-bootstrap/Carousel';
     import Col from 'react-bootstrap/Col';
 
+    // CSS
+    import "./index.css"
+
    // Other
     import parse from 'html-react-parser'
 
@@ -48,7 +51,7 @@ export default function InformationCard( { images, imageAlt, title, texts } ) {
 
     return (
         <Col sm={ 4 }>
-            <Card className="project-info">
+            <Card className="information-card">
                 { imagesHtml }
                 <Card.Body>
                     <Card.Title as="h3"> 
