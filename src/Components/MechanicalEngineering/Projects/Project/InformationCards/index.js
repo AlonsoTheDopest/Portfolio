@@ -46,7 +46,7 @@
     }
 
     // React Component that makes a card for a specific topic of a project
-    function CardInfo( { images, imageAlt, title, texts } ) {
+    function InformationCard( { images, imageAlt, title, texts } ) {
         let imagesHtml = <></>
         let textsHtml = textsToReactCardTexts( texts )
 
@@ -87,7 +87,7 @@ export default function InformationCards( { projectInfo } ) {
         const projectPartInfo = field[ 1 ]
         if ( !( areImagesEmpty( projectPartInfo.images ) && areTextsEmpty( projectPartInfo.texts ) ) ) {
             return ( 
-                <CardInfo 
+                <InformationCard 
                     key={ index }
                     images={ projectPartInfo.images }
                     imageAlt={ projectPartInfo.imageAlt }
